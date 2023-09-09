@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  color: white;
+  background-color: #1c1e53;
+}
+
+.section-kiri-register {
+  position: relative;
+  height: 100%;
+  max-width: 50%;
+}
+
+.isi-kiri-register {
+  padding-top: 2rem;
+  padding-left: 2.5rem;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 4.25rem;
+  width: 70%;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.deskripsi-register {
+  width: 70%;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+img {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0.4;
+  height: 100%;
+  object-fit: cover;
+  left: 0;
+}
+
+.section-kanan-register {
+  height: 100%;
+  width: 51%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 80%;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.input-flied {
+  width: 95%;
+  padding: 1rem 0rem 1rem 1.5rem;
+  border-radius: 1rem;
+  border: rgba(255, 255, 255, 0.3) 1px solid;
+  background-color: transparent;
+  margin: 0.5rem 0rem;
+  color: white;
+  font-family: Poppins;
+}
+
+.my-button {
+  background-color: #fcd980;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1rem 0;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-family: Poppins;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+section footer a {
+  color: white;
+  margin-left: 0.5rem;
+}
